@@ -23,16 +23,17 @@
 ``` c++
 int main()
 {
-    system("chcp 1251");				// русский язык в консоли
-    system("cls");					// очистка консоли
+    system("chcp 1251");															// русский язык в консоли
+    system("cls");																	// очистка консоли
 
-    LaptopBag bag1;					// создание объекта класса
-    cout << "Bag1" << endl << bag1.show() << endl;	// вывод
+    LaptopBag bag1;																	// создание объекта класса
+    cout << "Bag1" << endl << bag1.show() << endl;							// вывод
 
-    bag1.set_pocket(5);					// устанавливаем кол-во карманов
-    bag1.set_width(53);					// устанавливаем ширину
+    bag1.set_pocket(5);																// устанавливаем кол-во карманов
+    cout << "Bag1.pocket = " << bag1.get_pocket() << endl << endl;	// выводим кол-во карманов
+    bag1.set_width(53);																// устанавливаем ширину
 
-    cout << "Bag1" << endl << bag1.show();		// вывод изменённого
+    cout << "Bag1" << endl << bag1.show();									// вывод изменённого
 }
 ```
 

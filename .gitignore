@@ -1,0 +1,17 @@
+Схемка.drawio
+
+# класс
+Debug/
+packages/
+Класс.sln
+Класс.vcxproj
+Класс.vcxproj.filters
+Класс.vcxproj.user
+*.vs
+
+# тест
+LaptopBagTest.vcxproj
+LaptopBagTest.vcxproj.user
+packages.config
+pch.cpp
+pch.h

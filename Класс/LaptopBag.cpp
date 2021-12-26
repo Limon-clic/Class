@@ -130,7 +130,7 @@
 
     void LaptopBag::set_pocket(int pocket1)         // устанавливаем код-во карманов
     {
-        if (pocket1 > 0)
+        if (pocket1 >= 0)
             pocket = pocket1;
         else
             cout << "ошибка";

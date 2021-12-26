@@ -64,9 +64,8 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        cout << "Bag_arr3[" << i << "]" << endl << (*Bag_arr3[i]).show();
-		// вывод информации о всех объектах на которые указывают эллементы массива
-        delete Bag_arr3[i];								// после new надо очищать память
+        cout << "Bag_arr3[" << i << "]" << endl << (*Bag_arr3[i]).show();	// вывод информации о всех объектах
+        delete Bag_arr3[i];													// после new надо очищать память
         cout << endl;
     }
 }
